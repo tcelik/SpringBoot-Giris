@@ -1,5 +1,7 @@
 package org.csystem.sample.calculator.operation;
 
+
+import org.csystem.sample.entity.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -8,7 +10,7 @@ public class Multiplication implements IOperation{
     private Addition m_addition;
 
     //Bunuda yakalar. ekstradan
-    public Multiplication(Addition addition)
+    public Multiplication(Person p, Addition addition)
     {
         m_addition = addition;
     }

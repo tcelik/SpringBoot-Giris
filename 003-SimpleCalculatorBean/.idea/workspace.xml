@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c2159ca-c3be-482e-82b2-9c17bfb7f10a" name="Default Changelist" comment="003-SimpleCalculatorWithDependencyInjection">
+    <list default="true" id="2c2159ca-c3be-482e-82b2-9c17bfb7f10a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/csystem/sample/entity/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/csystem/sample/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csystem/sample/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/SimpleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/Multiplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/csystem/sample/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/csystem/sample/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csystem/sample/calculator/operation/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/csystem/sample/calculator/operation/Multiplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/csystem/sample/calculator/operation/SimpleCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/csystem/sample/calculator/operation/SimpleCalculator.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,29 +32,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="226">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2285#2286#0" expanded="true" />
-                <element signature="e#2329#2330#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/entity/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/SimpleCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1128#1129#0" expanded="true" />
-                <element signature="e#1163#1164#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,16 +68,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/Multiplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,9 +106,9 @@
         <option value="$PROJECT_DIR$/src/main/java/org/csystem/sample/bean/Sample.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/Addition.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/IOperation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/Multiplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/csystem/sample/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/SimpleCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/csystem/sample/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/Multiplication.java" />
       </list>
     </option>
   </component>
@@ -129,7 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,11 +138,67 @@
               <item name="003-SimpleCalculatorBean" type="b2602c69:ProjectViewProjectNode" />
               <item name="003-SimpleCalculatorBean" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="003-SimpleCalculatorBean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="003-SimpleCalculatorBean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="003-SimpleCalculatorBean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="003-SimpleCalculatorBean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="003-SimpleCalculatorBean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="003-SimpleCalculatorBean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="003-SimpleCalculatorBean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="003-SimpleCalculatorBean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="003-SimpleCalculatorBean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="003-SimpleCalculatorBean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="csystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="003-SimpleCalculatorBean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="003-SimpleCalculatorBean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="csystem" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="003-SimpleCalculatorBean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="003-SimpleCalculatorBean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="csystem" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,10 +208,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552508633752" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552514079043" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -221,7 +278,8 @@
       <workItem from="1552424601574" duration="3104000" />
       <workItem from="1552468234203" duration="993000" />
       <workItem from="1552472649675" duration="778000" />
-      <workItem from="1552503877048" duration="4595000" />
+      <workItem from="1552503877048" duration="6384000" />
+      <workItem from="1552514605731" duration="459000" />
     </task>
     <task id="LOCAL-00001" summary="003-SimpleCalculatorWithDependencyInjection">
       <created>1552507589237</created>
@@ -230,11 +288,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552507589237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DependencyInjection ile hesap makinası nesnesi alırken @Bean kullanımı. Bu durumda component ile işaretlersen exception oluşur.">
+      <created>1552508679693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552508679693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10796000" />
+    <option name="totallyTimeSpent" value="13044000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,7 +314,7 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.26979" />
       <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.2657512" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -259,7 +324,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28029197" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28029197" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -351,10 +416,25 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="003-SimpleCalculatorWithDependencyInjection" />
-    <option name="LAST_COMMIT_MESSAGE" value="003-SimpleCalculatorWithDependencyInjection" />
+    <MESSAGE value="DependencyInjection ile hesap makinası nesnesi alırken @Bean kullanımı. Bu durumda component ile işaretlersen exception oluşur." />
+    <option name="LAST_COMMIT_MESSAGE" value="DependencyInjection ile hesap makinası nesnesi alırken @Bean kullanımı. Bu durumda component ile işaretlersen exception oluşur." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/Util.java" />
@@ -453,16 +533,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/bean/Sample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/bean/Sample.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -496,29 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/IOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="5" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/Multiplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -526,26 +574,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/entity/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-            <element signature="e#2329#2330#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/SimpleCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/Multiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/IOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="5" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/csystem/sample/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -607,6 +675,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -630,7 +699,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.37254903" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

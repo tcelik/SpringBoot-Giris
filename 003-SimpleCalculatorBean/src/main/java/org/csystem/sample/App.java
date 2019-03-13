@@ -4,10 +4,12 @@ import org.csystem.sample.calculator.operation.Addition;
 import org.csystem.sample.calculator.operation.IOperation;
 import org.csystem.sample.calculator.operation.Multiplication;
 import org.csystem.sample.calculator.operation.SimpleCalculator;
+import org.csystem.sample.entity.Person;
 import org.springframework.beans.BeansException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
 import javax.xml.crypto.dsig.SignatureMethod;
 import java.util.Arrays;
@@ -62,6 +64,9 @@ public class App {
 
         //debug yapınız. ekstra
         System.out.println(calculator.getOperations().get(1).toString());
+
+        System.out.println(contextAl.getBean(Student.class).getName());
+        System.out.println(contextAl.getBean(Student.class).getName());
     }
 
     @Bean
@@ -69,6 +74,48 @@ public class App {
     {
         return new SimpleCalculator(operations);
     }
+
+    @Bean
+    public Person gt()
+    {
+        return new Person();
+    }
+
+
 }
+
+@Component
+class Student {
+    private int m_id;
+    private String m_name;
+
+    public Student(Person p)
+    {
+
+    }
+
+    public int getId()
+    {
+        return m_id;
+    }
+
+    public void setId(int id)
+    {
+        m_id = id;
+    }
+
+    public String getName()
+    {
+        return m_name;
+    }
+
+    public void setName(String name)
+    {
+        m_name = name;
+    }
+}
+
+
+
 
 
