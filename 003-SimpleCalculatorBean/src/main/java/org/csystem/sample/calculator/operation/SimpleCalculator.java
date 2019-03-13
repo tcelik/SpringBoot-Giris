@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
+//@Component
 public class SimpleCalculator {
     //Operationları tutacak.
     private  List<IOperation> m_operations;

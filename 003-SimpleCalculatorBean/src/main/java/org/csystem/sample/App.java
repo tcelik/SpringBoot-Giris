@@ -4,9 +4,12 @@ import org.csystem.sample.calculator.operation.Addition;
 import org.csystem.sample.calculator.operation.IOperation;
 import org.csystem.sample.calculator.operation.Multiplication;
 import org.csystem.sample.calculator.operation.SimpleCalculator;
+import org.springframework.beans.BeansException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
+import javax.xml.crypto.dsig.SignatureMethod;
 import java.util.Arrays;
 import java.util.List;
 
@@ -46,14 +49,25 @@ public class App {
         //bir liste geçmesi gerekecek bu noktada Component ile işaretleyenelere bakıyor.
         //Addition ve Multiplication component ile işaretlenmeli.
         //İşte listeyi kendisi auto-wired geçicek. Bunlar framework'ün sorumluluğunda.
-        SimpleCalculator calculator = contextAl.getBean(SimpleCalculator.class);
+        SimpleCalculator calculator = null;
+        try {
+            calculator = contextAl.getBean(SimpleCalculator.class);
+        } catch (BeansException e) {
+            e.printStackTrace();
+        }
 
         //madem nesneyi aldı non-static metotlarına çağrı yapabilirim.
         calculator.calculate('+', 10, 10);
         calculator.calculate('*', 10, 10);
 
         //debug yapınız. ekstra
-        System.out.println(calculator.getOperations().get(1).toString());;
+        System.out.println(calculator.getOperations().get(1).toString());
+    }
+
+    @Bean
+    public SimpleCalculator verbanabircalc(List<IOperation> operations)
+    {
+        return new SimpleCalculator(operations);
     }
 }
 
