@@ -1,6 +1,7 @@
 package org.csystem.sample;
 
 
+import org.csystem.sample.calculator.operation.IOperation;
 import org.csystem.sample.calculator.operation.SimpleCalculator;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import java.util.Arrays;
+import java.util.List;
 
 @SpringBootApplication
 public class App {
@@ -19,7 +21,7 @@ public class App {
     }
 
     @Bean
-    public ApplicationRunner run1(SimpleCalculator calculator)
+    public ApplicationRunner run(SimpleCalculator calculator)
     {
         System.out.println(calculator.toString());
         return args -> {
@@ -29,21 +31,11 @@ public class App {
     }
 
     @Bean
-    public ApplicationRunner run2(SimpleCalculator calculator)
+    public SimpleCalculator get(List<IOperation> operations)
     {
-        System.out.println(calculator.toString());
-
-        return Util::run;
+        return new SimpleCalculator(operations);
     }
+
 }
-
-class Util {
-    public static void run(ApplicationArguments args)
-    {
-        Arrays.stream(args.getSourceArgs()).forEach(s -> System.out.println(s));
-    }
-}
-
-
 
 
