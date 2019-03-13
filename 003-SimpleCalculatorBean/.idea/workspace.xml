@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c2159ca-c3be-482e-82b2-9c17bfb7f10a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/csystem/sample/entity/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/csystem/sample/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csystem/sample/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csystem/sample/calculator/operation/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/csystem/sample/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/csystem/sample/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/csystem/sample/calculator/operation/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/csystem/sample/calculator/operation/Multiplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/csystem/sample/calculator/operation/SimpleCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/csystem/sample/calculator/operation/SimpleCalculator.class" afterDir="false" />
-    </list>
+    <list default="true" id="2c2159ca-c3be-482e-82b2-9c17bfb7f10a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -279,7 +271,7 @@
       <workItem from="1552468234203" duration="993000" />
       <workItem from="1552472649675" duration="778000" />
       <workItem from="1552503877048" duration="6384000" />
-      <workItem from="1552514605731" duration="459000" />
+      <workItem from="1552514605731" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="003-SimpleCalculatorWithDependencyInjection">
       <created>1552507589237</created>
@@ -299,7 +291,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13044000" />
+    <option name="totallyTimeSpent" value="13203000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
